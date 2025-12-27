@@ -1,0 +1,55 @@
+.Home {
+    height: 100%;
+    width: 100%;
+    background: #F7F8F9;
+    overflow: hidden;
+}
+
+
+.Home > .title {
+    width: 231px;
+    height: 33px;
+    margin: 485px 124px 0px 20px;
+    font: normal normal 500 28px/17px 'Rubik', sans-serif;
+    color: #1D2226;
+}
+
+.content {
+    margin: 0px 123px 0px 20px;
+    width: 232px;
+    height: 48px;
+    font: normal normal 400 18px/26px 'Rubik', sans-serif;
+    color: #1D2226;
+    opacity: 0.6;
+}
+
+.register_button {
+    width: 335px;
+    height: 46px;
+    background: #6C25FF;
+    border-radius: 6px;
+    border: none;
+    margin: 29px 20px 0px 20px;
+    text-align: center;
+    font: normal normal 500 16px/17px 'Rubik', sans-serif;
+    color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+}
+
+.login_button {
+    width: 335px;
+    height: 46px;
+    background: #6C25FF4B;
+    border: none;
+    border-radius: 6px;
+    margin: 10px 20px 0px 20px;
+    text-align: center;
+    font: normal normal 500 16px/17px 'Rubik', sans-serif;
+    color: rgba(29, 34, 38, 1);
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}

@@ -1,0 +1,88 @@
+.Login {
+    height: 100%;
+    width: 100%;
+    background: #F7F8F9;
+    overflow: hidden;
+}
+
+
+.Login > .title {
+    width: 188px;
+    height: 69px;
+    font: normal normal 500 28px/36px 'Rubik', sans-serif;
+    margin: 40px 167px 0px 20px;
+    color: #1D2226;
+}
+
+.Login > .content {
+    margin: 14px 123px 0px 20px;
+    width: 232px;
+    height: 48px;
+    font: normal normal 400 18px/26px 'Rubik', sans-serif;
+    color: #1D2226;
+    opacity: 0.6;
+}
+
+.login_form {
+    display: flex;
+    flex-direction: column;
+    height: 121px;
+    margin-top: 32px;
+}
+
+.login_form > input {
+    width: 315px;
+    height: 40px;
+    margin: 0px 20px 29px 15px;
+    border: 1px solid #CBCBCB;
+    border-radius: 6px;
+    padding: 10px 0px 10px 20px;
+    color: #1D2226;
+    font: normal normal 400 13px/17px 'Rubik', sans-serif;
+}
+
+input:focus {
+    outline: none;
+    border: none;
+}
+
+.login_form > input::placeholder {
+    color: #1D2226;
+    font: normal normal 400 13px/17px 'Rubik', sans-serif;
+}
+
+
+.email, .password {
+    position: absolute;
+    width: 160px;
+    height: 15px;
+    font: normal normal 400 13px/17px 'Rubik', sans-serif;
+    color: #6C25FF;
+    width: 96px;
+    height: 17px;
+    background: #F7F8F9;
+}
+
+.login_form > .email {
+    margin: -10px 276px 0px 34px;
+    padding-left: 2px;
+}
+
+.login_form > .password {
+    margin: 55px 0px 0px 34px;
+    padding-left: 2px;
+}
+
+.login_form > .login_button {
+    position: absolute;
+    width: 335px;
+    height: 46px;
+    background: #CBCBCB;
+    border-radius: 6px;
+    margin-top: 125px;
+    margin-left: 15px;
+    color: #FFFFFF;
+    text-align: center;
+    font: normal normal medium 16px/17px 'Rubik', sans-serif;
+    color: #FFFFFF;
+}
